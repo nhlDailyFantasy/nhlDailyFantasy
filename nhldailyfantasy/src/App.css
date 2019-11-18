@@ -1,7 +1,10 @@
 .App {
+  text-align: center;
+}
+
+div {
   background-color: #282c34;
   min-height: 100vh;
-  min-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
