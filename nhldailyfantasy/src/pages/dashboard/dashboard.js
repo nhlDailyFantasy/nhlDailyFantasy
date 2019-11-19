@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Toolbar/>
       <div className='moveRightABit'>
-        Teams
+        Dashboard
       </div>
     </div>
   );
