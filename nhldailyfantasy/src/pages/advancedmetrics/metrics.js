@@ -1,5 +1,5 @@
 import React from 'react';
-import './pages.css';
+import '../../pages/pages.css';
 import Toolbar from '../../components/toolbar';
 
 function App() {

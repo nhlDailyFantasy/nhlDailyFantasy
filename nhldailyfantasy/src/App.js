@@ -1,15 +1,14 @@
 import React from 'react';
-import './App.css';
-import Toolbar from './components/toolbar';
+import { Router } from 'react-router-dom';
+
+import history from './services/history';
+import Routes from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <Toolbar/>
-      <div className='moveRightABit'>
-        Stuff
-      </div>
-    </div>
+    <Router history={history}>
+      <Routes />
+    </Router>
   );
 }
 
