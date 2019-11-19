@@ -1,15 +1,12 @@
 .App {
-  text-align: center;
-}
-
-div {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: block;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.moveRightABit {
+  margin-left: 15px;
 }
 
